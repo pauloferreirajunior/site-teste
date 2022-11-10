@@ -6,8 +6,8 @@
 }
 
 html, body {
-    height: 100%;
-    background-color: #110f17;
+    height: 80%;
+    background-color: #db1515;
 }
 
 /*      CONFIGURAÇÃO DO MENU 
@@ -60,7 +60,7 @@ li {
     top: 20px;
 }*/
 
-li:hover, img:hover, button:hover {
+li:hover, .logo:hover, button:hover {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -77,20 +77,36 @@ a, a:link, a:visited, a:hover, a:active {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 75%;
+    height: 70%;
 }
 
 .container {
     position: absolute;
     width: 100%;
-    height: 721px;
+    height: 729px;
     top: 96px;
     right: 0px;
-    background-image: linear-gradient(45deg, black, #221133);
+    background-color: #110f17;
     box-shadow: inset 0 -1px 0 #29292e;
 }
 
+.apresentação {
+    z-index: 600;
+    position: absolute;
+}
+
+.fundo {
+    position: relative;
+    top: -186px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 .tornar {
+    z-index: 600;
     width: 510px;
     margin-top: 8%;
     margin-left: 15%;
@@ -102,7 +118,8 @@ a, a:link, a:visited, a:hover, a:active {
 .rodape {
     position: absolute;
     width: 100%;
-    height: 15%;
+    height: 20%;
+    top: 825px;
     display: flex;
     justify-content: center;
     align-items: center;
