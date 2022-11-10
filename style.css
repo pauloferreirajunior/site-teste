@@ -9,19 +9,58 @@ html, body {
     height: 100%;
 }
 
+/*      CONFIGURAÇÃO DO MENU 
+-------------------------------------*/
 .headermenu {
     width: 100%;
     background-color: #110f17;
     height: 10%;
-    
+    display: flex;
     
 }
 
-#menu {
+h2 {
+    color: white;   
+}
+
+nav {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
     font-family: 'Public Sans', sans-serif;
+    list-style: none;
+    padding: 0 250px;
+}
+
+li {
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: gray;
-    height: 100%;
+}
+
+/*button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}*/
+
+li:hover, h2:hover, button:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -29,14 +68,8 @@ a, a:link, a:visited, a:hover, a:active {
     color: white;
 }
 
-#nomemenu {
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*-------------------------------------*/
+
 
 .main {
     display: flex;
@@ -78,3 +111,19 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
 }
+
+/*#menu {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    color: gray;
+    height: 100%;
+}*/
+
+/*#nomemenu {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
