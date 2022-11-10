@@ -7,6 +7,7 @@
 
 html, body {
     height: 100%;
+    background-color: #110f17;
 }
 
 /*      CONFIGURAÇÃO DO MENU 
@@ -16,7 +17,8 @@ html, body {
     background-color: #110f17;
     height: 10%;
     display: flex;
-    
+    z-index: 500;
+    box-shadow: inset 0 -1px 0 #29292e;
 }
 
 h2 {
@@ -58,7 +60,7 @@ li {
     top: 20px;
 }*/
 
-li:hover, h2:hover, button:hover {
+li:hover, img:hover, button:hover {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -81,10 +83,11 @@ a, a:link, a:visited, a:hover, a:active {
 .container {
     position: absolute;
     width: 100%;
-    height: 85%;
-    top: 93px;
+    height: 721px;
+    top: 96px;
     right: 0px;
     background-image: linear-gradient(45deg, black, #221133);
+    box-shadow: inset 0 -1px 0 #29292e;
 }
 
 .tornar {
@@ -98,12 +101,12 @@ a, a:link, a:visited, a:hover, a:active {
 
 .rodape {
     position: absolute;
-    background-color: #110f17;
     width: 100%;
     height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(-270deg, #09090a,#121214);
 }
 
 h4 {
