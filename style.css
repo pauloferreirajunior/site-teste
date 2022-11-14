@@ -6,8 +6,14 @@
 }
 
 html, body {
-    height: 80%;
+    position: relative;
+    height: 100%;
     background-color: #110f17;
+}
+
+body { 
+    width: 100%;
+    height: 100%;
 }
 
 /*      CONFIGURAÇÃO DO MENU 
@@ -72,32 +78,44 @@ a, a:link, a:visited, a:hover, a:active {
 
 /*-------------------------------------*/
 
-
-.main {
-    display: flex;
-    flex-direction: column;
+.oi {
+    position: absolute;
+    top: 180px;
     width: 100%;
-    height: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-.container {
-    position: absolute;
-    width: 100%;
-    height: 729px;
-    top: 96px;
-    right: 0px;
-    background-color: #110f17;
-    box-shadow: inset 0 -1px 0 #29292e;
+.hello {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(88, 241, 134);
 }
 
 .apresentação {
-    z-index: 600;
+    margin-top: -6%;
+}
+
+.mapa {
+    color: #c9c9c9;
     position: absolute;
+    top: 355px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+
+
 }
 
 .fundo {
     position: relative;
-    top: -186px;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -105,25 +123,34 @@ a, a:link, a:visited, a:hover, a:active {
     max-width: 100%;
 }
 
-.tornar {
+#tornar {
+    position: absolute;
+    top: 180px;
+    display: flex;
     z-index: 600;
-    width: 510px;
+    width: 100%;
     margin-top: 8%;
-    margin-left: 15%;
     font-family: 'Public Sans', sans-serif;
     font-size: 36px;
     color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 20%;
-    top: 825px;
+    height: 5%;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(-270deg, #09090a,#121214);
+}
+
+h1 {
+    font-size: 54px;
+    text-align: center;
 }
 
 h4 {
