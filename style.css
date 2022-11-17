@@ -297,6 +297,8 @@ iframe {
     transition: 0.4s;
 }
 
+
+/*----------------Rodapé--------------*/
 .rodape {
     display: flex;
     align-items: center;
@@ -328,18 +330,48 @@ iframe {
 .logorodape {
     float: left;
     position: relative;
-    top: -80px;
+    top: -32px;
+}
+
+.copy {
+    position: relative;
+    top: 42px;
+    left: -300px;
+    color: #a8a8b3;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .titulosrodape1, .titulosrodape2, .titulosrodape3, .titulosrodape4 {
-    padding: 0 55px;
+    padding: 0 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: white;
-    top: -82px;
+    top: -32px;
     position: relative;
     float: left;
 }
+
+.paulo, .emailpaulo, .jessica, .emailjessica, .sobremenu, .menuduvidas, .menuprogramas {
+    color: #a8a8b3;
+}
+
+.emailpaulo {
+    position: relative;
+    top: 7px;
+    text-decoration: underline
+}
+
+.jessica {
+    position: relative;
+    top: 14px;
+}
+
+.emailjessica {
+    position: relative;
+    top: 22px;
+}
+/*--------------------------------------*/
 
 h1 {
     font-size: 54px;
