@@ -241,7 +241,7 @@ iframe {
 .astro {
    display: flex;
    position: absolute;
-   top: -180px;
+   top: -200px;
    left: -40px;
 }
 
